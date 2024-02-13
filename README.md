@@ -63,7 +63,7 @@ The top image displays ICMP raw traffic between VM1 and VM2. The raw traffic con
 <img src="https://i.imgur.com/T2Fox26.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Requesting a new ip address through the DHCP is the image being displayed on top. Requesting a new ip address can be because of multiple reasons. A few examples are network changes, troubleshooting, lease expiration, and ip address pool exhaustion. Below that image is the ipconfig command for name system lookup. Better known as DNS. This process converts domain names into ip addresses.
   
 </p>
 <img src="https://i.imgur.com/raUIuoY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
