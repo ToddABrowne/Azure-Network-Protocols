@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/h20SJQ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
-Virtual Machine 1's system is operating on Windows 10 Pro. Virtual Machine 2's system is operating on Ubuntu (Linux). These 2 VMs are on the same Virtual Network but have different public and private  ip addresses.
+Virtual Machine 1's system is operating on Windows 10 Pro. Virtual Machine 2's system is operating on Ubuntu (Linux). These 2 VMs are on the same Virtual Network but have different public and private  ip addresses. Wireshark will be the analyzer of choice.
 
 </p>
 <br />
@@ -51,7 +51,8 @@ Virtual Machine 1's system is operating on Windows 10 Pro. Virtual Machine 2's s
 <img src="https://i.imgur.com/yaeH3rf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The top image displays ICMP raw traffic between VM1 and VM2. The raw traffic consist of ping command and perpetual ping command. Behind the scenes I also created a new rule for VM2 inbound IMCP traffic to be denied which created a time out reply. I then changed the access from deny back to allow, which reconnected communication with VM1 and VM1 through ICMP. The bottom image is observation of SSH command from VM1 to VM2. This allows me to take over VM2 from VM1.
+  
 </p>
 <br />
 
