@@ -39,7 +39,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/h20SJQ5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Virtual Machine 1's system is operating on Windows 10 Pro. Virtual Machine 2's system is operating on Ubuntu (Linux). These 2 VMs are on the same Virtual Network but have different public and private  ip addresses.
+
 </p>
 <br />
 
