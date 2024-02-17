@@ -63,7 +63,7 @@ The top image displays ICMP raw traffic between VM1 and VM2. The raw traffic con
 <img src="https://i.imgur.com/T2Fox26.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <p>
-Requesting a new ip address through the DHCP is the image being displayed on top. There are multiple reasons why this request takes place. A few examples are network changes, troubleshooting, lease expiration, and ip address pool exhaustion. Below that image is the ipconfig command for name system lookup. Better known as DNS. This process converts domain names into ip addresses.
+Requesting a new ip address through the DHCP is the image being displayed on top. There are multiple reasons why this request takes place. A few examples are network changes, troubleshooting, lease expiration, and ip address pool exhaustion. Below that image is the ipconfig command for name server lookup. Better known as DNS. This process communicates domain names into ip addresses.
   
 </p>
 <img src="https://i.imgur.com/raUIuoY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
